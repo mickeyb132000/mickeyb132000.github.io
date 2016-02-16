@@ -95,6 +95,7 @@
  <section id="what-we-do"> 
  <h1>What we do</h1> 
  <p>Place 3 icons here illustrating what you do</p> 
+ <p>Pricelist of art. <a href="" onclick="pricelist()">Click here</a></p>
  </section> 
  <section id="me"> 
 <h1>Who I am</h1> 
@@ -107,13 +108,16 @@ From there I was she set up an audition for me, and I was accepted into the magn
 <section id="contact">
 <h1>Contact</h1>
 <p>Mickeyb1320002gmail.com, <a href="https://www.instagram.com/ptatts/">Instagram</a>, <a href="https://www.linkedin.com/in/mikeya-brown-a156b9113?trk=nav_responsive_tab_profile">LinkedIn</a>, <a href="https://twitter.com/mickeyb1320001">Twitter</a> 
-
-</section>
+</section> 
 <script>
 //open your website in a new window
 // This is used when you want the the user to allow 
 //window.open("http://mikeyabrown.me/sale.html","","height=200,width=200,top=50,left=1040");
-function pricelist(){window.open("http://mikeyabrown.me/sale.html","","height=200,width=200,top=50,left=1040")}
+//This is used when you want the pop to come up without the user pressing allow 
+function pricelist(event){
+  window.open("http://mikeyabrown.me/pricelist.html","","height=200,width=200,top=50,left=1040")
+  event.preventDefault();
+}
 </script>
 </body>
 
