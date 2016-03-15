@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 	background-attachment: fixed;
 }
 
-P{
+p{
 	font-size: 24px;
 }
 
@@ -43,18 +43,46 @@ footer{
 	font-family: sans-serif;
 }
 
+a{
+	color:#fff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: teal;
+}
+
+section{
+	background-color: #51C291;
+}
 </style>
 </head>
 <body>
 <img src="Place one of my pieces here">
 <h1>Let's Keep in touch</h1>
-<p>Place a description here for retrieving vistors contact information</p>
-<input type="name" placeholder="Name"><br>
-<input type="adress" placeholder="Address"><br>
-<input type="telephone number" placeholder="Telephone Number"><br>
-<input type="email" placeholder="Email"><br>
-<input type="suggestions" placeholder="Suggestions"><br>
-<input type="submit">
+<section>
+<div id="wufoo-z1xbu1oc0wo2r5w">
+Fill out my <a href="https://mikeyabrown.wufoo.com/forms/z1xbu1oc0wo2r5w">online form</a>.
+</div>
+<script type="text/javascript">var z1xbu1oc0wo2r5w;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'mikeyabrown',
+'formHash':'z1xbu1oc0wo2r5w',
+'autoResize':true,
+'height':'786',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1xbu1oc0wo2r5w = new WufooForm();z1xbu1oc0wo2r5w.initialize(options);z1xbu1oc0wo2r5w.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+</section>
+
 <footer>
 <p>Mickeyb132000@gmail.com, <a href="https://www.instagram.com/ptatts/">Instagram</a>, <a href="http://www.linkedin.com/in/mikeya-brown-a156b9113?trk=nav_responsie_tab_profile">LinkedIn</a>, <a href="https://twitter.com/mickeyb1320001">Twitter</a> 
 </footer>
